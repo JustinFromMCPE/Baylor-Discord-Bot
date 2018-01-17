@@ -2,7 +2,7 @@ import discord
 import asyncio
 
 description = "Baylor-Bot"
-bot_prefix = "!"
+bot_prefix = "n-"
 
 client = discord.Client()
 
@@ -15,7 +15,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-	if message.content.startswith('!help'):
-		await client.send_message(message.channel, "HELP")
+	if message.content.startswith('n-help'):
+		await client.send_message(message.channel, "Bot under construction!")
 
 client.run("NDAzMDMxMjQ0NTI0MzU1NTg1.DUBYcQ.Cmc_HChwhfkCu1KZyBgcHRfvrcw");
