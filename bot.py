@@ -18,4 +18,4 @@ async def on_message(message):
 	if message.content.startswith('!help'):
 		await client.send_message(message.channel, "HELP")
 
-client.run("NDAyOTM0NjA1MTg0NzYxODU2.DUATgQ.WdBt9mnG6VQVzP95YqvA4XXM7yU");
+client.run("NDAzMDMxMjQ0NTI0MzU1NTg1.DUBYcQ.Cmc_HChwhfkCu1KZyBgcHRfvrcw");
