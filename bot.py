@@ -18,6 +18,6 @@ async def on_message(message):
 	if message.content.startswith('n-help'):
 		await client.send_message(message.channel, "Bot under construction!")
 	if message.content.startswith('n-staff'):
-		await client.send_message(message.channel, "**Owner:** *JustinFromMCPE* \n **Co-Owner:** *TBNRItzDoge*")
+		await client.send_message(message.channel, "**OWNERS:**\n(FOUNDER) *JustinFromMCPE \n*TBNRItzDoge* \n**STAFF:** \nDerek")
 
 client.run("NDAzMDMxMjQ0NTI0MzU1NTg1.DUBYcQ.Cmc_HChwhfkCu1KZyBgcHRfvrcw");
